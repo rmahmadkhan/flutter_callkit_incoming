@@ -30,6 +30,11 @@ apply plugin: 'kotlin-android'
 android {
     compileSdk 35
 
+    compileOptions {
+        sourceCompatibility = 17
+        targetCompatibility = 17
+    }
+
     if (project.android.hasProperty("namespace")) {
         namespace "com.hiennv.flutter_callkit_incoming"
     }
