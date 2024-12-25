@@ -28,7 +28,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdk 34
+    compileSdk 35
 
     if (project.android.hasProperty("namespace")) {
         namespace "com.hiennv.flutter_callkit_incoming"
@@ -39,7 +39,7 @@ android {
     }
     defaultConfig {
         minSdk 23
-        targetSdk 34
+        targetSdk 35
 
         consumerProguardFiles 'consumer-rules.pro'
     }
