@@ -2,7 +2,7 @@ group 'com.example.flutter_callkit_incoming'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.8.0'
+    ext.kotlin_version = '2.0.21'
     repositories {
         google()
         jcenter()
